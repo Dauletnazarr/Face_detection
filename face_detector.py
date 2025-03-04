@@ -9,8 +9,9 @@ from deepface import DeepFace
 # Инициализация синтеза речи
 engine = pyttsx3.init()
 engine.setProperty("rate", 140)  # Скорость речи
-# Устанавливаем мужской голос
-engine.setProperty("voice", engine.getProperty("voices")[3].id)
+# Устанавливаем мужской голос, если есть поддержка мужского голоса,
+# то поменяйте [0] на [3]
+engine.setProperty("voice", engine.getProperty("voices")[0].id)
 
 # Пути к фотографиям
 wife_image_paths = [
