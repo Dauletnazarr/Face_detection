@@ -1,0 +1,29 @@
+Result.json
+images/
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Конфиги и секретные данные
+*.env
+config.json
+settings.py
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+echo "dist/" >> .gitignore
+echo "build/" >> .gitignore
