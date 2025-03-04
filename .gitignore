@@ -25,5 +25,5 @@ settings.py
 .DS_Store
 Thumbs.db
 
-echo "dist/" >> .gitignore
-echo "build/" >> .gitignore
+dist/
+build/
