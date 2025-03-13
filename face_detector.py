@@ -23,6 +23,7 @@ wife_image_paths = [
     "images/img6.jpeg"
 ]
 
+
 # Таймер для предотвращения частого повторения приветствия
 LAST_GREET_TIME = 0
 GREETING_INTERVAL = 2  # Интервал между приветствиями (в секундах)
